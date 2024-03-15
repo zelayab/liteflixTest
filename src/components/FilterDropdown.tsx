@@ -17,8 +17,7 @@ export const FilterDropdown = ({
       <motion.div
         initial={{ y: -80, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        className="w-full relative inline-block text-left z-10 lg:w-[300px] text-lg lg:fixed lg:right-22 lg:z-50 lg:top-56"
-        /* si dropOpen esta true calculamos la position top y left para que el dropdown se muestre en la posición correcta */
+        className="w-full relative inline-block text-left z-10 lg:w-[300px] text-lg lg:fixed lg:right-22 lg:z-50 lg:top-[270px]"
       >
         <button
           className="flex justify-center items-center w-full gap-3 px-4 py-2 text-lg lg:shadow"
@@ -44,7 +43,6 @@ export const FilterDropdown = ({
               exit={{ x: 20, opacity: 0 }}
               transition={{ duration: 0.2 }}
               className="flex flex-col w-full absolute shadow-lg shadow-gray-900 top-12 right-0 bg-secondary z-10"
-              style={{ display: dropOpen ? "block" : "none" }}
             >
               <button
                 className={`flex items-center justify-between py-4 px-6 ${

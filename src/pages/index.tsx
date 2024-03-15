@@ -26,7 +26,7 @@ export default function Home() {
       try {
         const nowPlaying = await getNowPlaying();
         const popular = await getPopularMovies();
-        setFeaturedMovie(nowPlaying[3]);
+        setFeaturedMovie(nowPlaying[1]);
         setPopularMovies(popular);
       } catch (error) {
         console.error("Error al obtener datos:", error);
