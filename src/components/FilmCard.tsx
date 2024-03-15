@@ -29,8 +29,14 @@ export const FilmCard = ({
    * @param rating
    * @returns  average rating
    */
-  const averageRatingFix = (rating: number) => {
-    return rating.toFixed(1);
+  const averageRatingFix = (rating: number | undefined): string => {
+    if (rating === undefined || rating === null) {
+      return "";
+    }
+
+    return rating.toString().length > 1
+      ? rating.toString().slice(0, 3)
+      : rating.toString();
   };
 
   /**
