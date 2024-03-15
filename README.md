@@ -1,4 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# LiteFlix
+
+Proyecto basado en un test challenge de front-end de Litebox.
+Es un proyecto creado en NextJs, y se utilizo framer motion para animaciones, también Zustand para crear un hook personalizado llamado useMovies que administra el estado relacionado con las películas.
+Para nuestras API's usamos:
+
+- themoviesdb API
+- Firebase para nuestra propia API
+
+## Environment Variables
+
+Para usar el proyecto, se necesita agregar las siguietnes variables en tu archivo .env:
+
+`API_KEY`
+
+`ANOTHER_API_KEY`
+
+- APIKEY : la api propia y personal de la api que utilizamos
+- BASE_URL : la url de la página que tenemos
+
+Es importante también tener el archivo que configura la configuración inicial de firebase
+
+## Documentation
+
+[Zustand](https://zustand-demo.pmnd.rs/)
+
+[NextJs](https://nextjs.org/)
+
+[TailwindCss](https://tailwindcss.com/)
+
+[Axios](https://axios-http.com/es/docs/intro)
+
+[Motion Framer](https://www.framer.com/motion/)
+
+[ReactJs](https://react.dev/)
+
+[Firebase](https://firebase.google.com/docs?hl=es)
+
+## Color Reference
+
+| Color           | Hex                                                              |
+| --------------- | ---------------------------------------------------------------- |
+| Primary Color   | ![#0a192f](https://via.placeholder.com/10/64EEBC?text=+) #64EEBC |
+| Secondary Color | ![#f8f8f8](https://via.placeholder.com/10/242424?text=+) #242424 |
+| Tertiary Color  | ![#00b48a](https://via.placeholder.com/10/DC493A?text=+) #DC493A |
+
+## Tech Stack
+
+**Client:** React, NextJs, TailwindCSS, MotionFrame, Axios,Zustand, Firebase.
+
+## Features
+
+- Menu responsive
+- Poder agregar imagenes que representen unas peliculas y crear peliculas.
+- Utilizar API de The Movie Database (TMDB)
+- Las peliculas nuestras se guardan en la base de datos creada en Firebase
+- Especificaciones según el test challenge
+- Skeleton Card and Image del inicio
 
 ## Getting Started
 
@@ -14,27 +71,27 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+El proyecto usa [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Aprende mas
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Para aprender más acerca de NextJS:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [Next.js Documentation](https://nextjs.org/docs) - Aprende acerca de NextJs, API.
+- [Learn Next.js](https://nextjs.org/learn) - Next.js tutorial interactivo
 
-## Learn More
+## Deploy en Vercel
 
-To learn more about Next.js, take a look at the following resources:
+La manera más facil de deployar tu proyecto de Next.js es usar [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) de los creadores de Next.Js.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Puedes ver [Next.js deployment documentation](https://nextjs.org/docs/deployment) para más detalles.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Demo
 
-## Deploy on Vercel
+[DEMO](https://zustand-demo.pmnd.rs/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Authors
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [@zelayab](https://www.github.com/zelayab)
