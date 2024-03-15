@@ -3,4 +3,7 @@ module.exports = {
     tailwindcss: {},
     autoprefixer: {},
   },
+  images: {
+    domains: ['media.themoviedb.org'],
+  },
 };
