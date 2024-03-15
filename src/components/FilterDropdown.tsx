@@ -17,7 +17,7 @@ export const FilterDropdown = ({
       <motion.div
         initial={{ y: -80, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        className="w-full relative inline-block text-left z-10 lg:w-[300px] text-lg lg:fixed lg:right-22 lg:z-50 lg:top-[270px]"
+        className="w-full relative inline-block text-left z-10 lg:w-[300px] text-lg lg:fixed lg:right-22 lg:top-[270px]"
       >
         <button
           className="flex justify-center items-center w-full gap-3 px-4 py-2 text-lg lg:shadow"
