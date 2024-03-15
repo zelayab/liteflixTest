@@ -90,7 +90,7 @@ Puedes ver [Next.js deployment documentation](https://nextjs.org/docs/deployment
 
 ## Demo
 
-[DEMO](https://zustand-demo.pmnd.rs/)
+[DEMO](https://liteflix-test-omega.vercel.app/)
 
 ## Authors
 
