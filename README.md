@@ -15,6 +15,15 @@ Para usar el proyecto, se necesita agregar las siguietnes variables en tu archiv
 
 `ANOTHER_API_KEY`
 
+Variables de Firebase
+
+`NEXT_PUBLIC_FIREBASE_API_KEY`
+`NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN`
+`NEXT_PUBLIC_FIREBASE_PROJECT_ID`
+`NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET`
+`NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID`
+`NEXT_PUBLIC_FIREBASE_APP_ID`
+
 - APIKEY : la api propia y personal de la api que utilizamos
 - BASE_URL : la url de la página que tenemos
 
